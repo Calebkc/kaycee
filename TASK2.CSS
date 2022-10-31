@@ -1,0 +1,110 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:hsl(225, 100%, 94%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.log1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.log2{
+    font-size: 16px ;
+    border: 2px solid yellowgreen;
+}
+.log2  h1{
+    text-align: center;
+}
+.log4 img{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.log3{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-size: 16px;
+    padding-top: 20px;
+    display: flex;'
+flex-direction: column;
+    align-items: ;
+    
+}
+.log0{
+    border: 2px ;
+    border: 2px solid red;
+    height: 30rem;
+    padding-top: 40px;
+    background-color: white;
+   border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+
+.pad1{
+    padding-left: 7px;
+}
+.pad3{
+    padding-left: 80px;
+}
+.log5{
+position: relative;
+top:2rem ;
+background-color: hsl(225, 100%, 98%);
+width: 19rem;
+padding-left: 20px;
+padding-top: 20px;
+height:5.5rem;
+border-radius: 15px;
+}
+.log6{
+    position: relative;
+left: 5rem;
+bottom: 2.8rem;
+
+}
+.log7{
+    position: relative;
+    top: 0.5rem;
+}
+.log8{
+    position: relative;
+    left: 8rem;
+    bottom: 1.6rem;
+}
+.log9{
+    width: 18rem;
+    height: 3rem;
+    border-radius: 10px;
+    position: relative;
+    right: 1rem;
+    font-size: 14x;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    background-color:   hsl(245, 75%, 52%);
+    color: white;
+    border: 0px;
+    box-shadow: 50px 4px 5px;
+}
+
+.order{
+    
+}
+@media screen and (max-width:480px) {
+   .log1{ display: flex;
+   border: 1px solid yellow;
+   }
+
+   body{
+    
+   }
+}

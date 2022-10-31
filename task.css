@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../Public/IMAGE/images/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-position: 0px 400px;
+    background-size: cover;
+    background-color: rgb(2, 2, 66);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 350px;
+   flex-wrap: wrap;
+
+
+}
+.log{
+    height: rem;
+}
+
+.main{
+    background-color: hsl(228, 56%, 26%);
+    
+    margin-right: 650px;
+    width: 20rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+    justify-content: space-around;
+    /* align-items: flex-start; */
+    border-radius: 10px;
+    border-top-right-radius: 90px;
+    padding-right: 80px;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    position: relative;
+    left: 2rem;
+
+}
+.log1 img {
+    background-color: black;
+    border-radius:10px ;
+    justify-content: space-around;
+margin-top: 0px;
+    width: 40px;
+    height: 40px;
+    padding: 10px 10px;
+    flex-wrap: wrap;
+}
+
+.main2{
+    justify-content:center ;
+    position: relative;
+    bottom: 12rem;
+    left: 300px;
+   
+    ;
+    width: 50rem;
+    height: 5rem;
+    background-color: hsl(228, 56%, 26%);
+    padding-left: 2rem;
+    padding-top: 1rem;
+    border-radius: 15px;
+    height: 195px;
+    flex-wrap: wrap;
+    position: relative;
+    left: 20rem;
+
+}
+.log3{
+    width: max-content;
+    flex-wrap: wrap;
+    color: white;
+padding-top: 30px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+Font size: 14px
+
+}
+.space1{
+    border: 1px solid black;
+    height: 20px;
+    background-color:hsl(229, 57%, 11%);;
+    border-radius: 20px;
+    margin-top: 1.5rem;
+    flex-wrap: wrap;
+    width: 44rem;
+}
+.space2{
+    border: 1px solid black;
+    height: 20px;
+    background-color:hsl(6, 100%, 80%);;
+    border-radius: 20px;
+    width: 30rem;
+    position: relative;
+    bottom: 1.3rem;
+    flex-wrap: wrap;
+}
+.space3{
+    border: 1px solid white;
+    height: 15px;
+    border-radius: 10px;
+    background-color: white;
+    width: 17px;
+    position: relative;
+    bottom: 2.4rem;
+left: 29rem;
+flex-wrap: wrap;
+}
+.space4{
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    bottom: 1rem;
+    color: white;
+}
+.space5{
+    font-size: 19px;
+    position: relative;
+    bottom: 3rem;
+    left:38rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
